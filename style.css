@@ -54,16 +54,20 @@
 .ms_table h2 {
     border-bottom: 1px solid grey;
     background-color: rgba(128, 128, 128, 0.134);
+    padding: 10px;
 }
 
 .ms_table {
     width: 70%;
     border: 1px solid grey;
     margin: 10px;
+    height: 550px;
+    border-radius: 10px;
 }
 
-.td a {
-    padding: 2px;
-    border: 1px solid grey;
+.ms_action-table {
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.356);
+    border-radius: 10px;
 }
 
