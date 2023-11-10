@@ -16,7 +16,7 @@
 
 .ms_sidebar {
     width: 10vw;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -42,5 +42,28 @@
     text-decoration: none;
     padding-left: 5px;
     color: white;
+}
+
+/* container centrale */
+
+.container_centrale {
+    display: flex;
+    flex-grow: 1;
+}
+
+.ms_table h2 {
+    border-bottom: 1px solid grey;
+    background-color: rgba(128, 128, 128, 0.134);
+}
+
+.ms_table {
+    width: 70%;
+    border: 1px solid grey;
+    margin: 10px;
+}
+
+.td a {
+    padding: 2px;
+    border: 1px solid grey;
 }
 
