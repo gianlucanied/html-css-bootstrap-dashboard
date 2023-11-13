@@ -75,12 +75,29 @@ header a {
 
 /* container centrale */
 
+.ms_row_blu {
+    background-color: rgb(71, 71, 250);
+    color: white;
+    padding: 20px;
+}
+
+
+.ms_container_new {
+
+    border-radius: 10px;
+    height: auto;
+}
+
+.ms_container_new_stats img {
+    width: 100%;
+}
+
 .container_centrale {
     display: flex;
     flex-grow: 1;
 }
 
-.ms_table h2 {
+.ms_container_new h2 {
     border-bottom: 1px solid grey;
     background-color: rgba(128, 128, 128, 0.134);
     padding: 10px;
