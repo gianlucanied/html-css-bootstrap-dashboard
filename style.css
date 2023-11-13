@@ -3,13 +3,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 12px;
 }
 
 /* nav-bar */
 
-#ms_navbar {
+header{
+    margin: 10px 0;
+}
+
+header a {
+    font-size: 30px;
+}
+
+#icon-header {
     display: flex;
-    height: 15vh;
+    justify-content: space-around;
+}
+
+#big-logo {
+    display: block;
+}
+
+#small-logo {
+    display: none;
+    max-width: 100%;
+
 }
 
 /* sidebar */
@@ -57,12 +76,22 @@
     padding: 10px;
 }
 
+.ms_container_centrale {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    flex-grow: 1;
+}
+
 .ms_table {
-    width: 70%;
     border: 1px solid grey;
     margin: 10px;
-    height: 550px;
+    height: auto;
     border-radius: 10px;
+}
+
+.ms_table img {
+    width: 20px;
 }
 
 .ms_action-table {
@@ -71,3 +100,41 @@
     border-radius: 10px;
 }
 
+
+
+/* mobile version */
+
+@media all and (max-width: 480px) {
+    .ms_sidebar {
+        width: 70px;
+    }
+
+    .ms_sidebar span {
+        display: none;
+    }
+}
+
+
+
+
+/*tablet version*/
+
+@media all and (max-width: 780px) {
+    
+    #icon-grey {
+        display: none;
+    }
+
+    #big-logo {
+        display: none;
+    }
+
+    #small-logo {
+        display: block;
+    }
+
+    #ring-icon {
+        padding-right: 30px;
+    }
+
+}
